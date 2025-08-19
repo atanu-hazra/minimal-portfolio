@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "../ui/button";
-import { cookie } from "@/app/layout";
+import { cookie } from "@/lib/fonts";
 import { useState } from "react";
 import { LuMenu } from "react-icons/lu";
 import { CgClose } from "react-icons/cg";

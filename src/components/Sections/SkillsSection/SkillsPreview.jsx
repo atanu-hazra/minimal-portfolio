@@ -2,7 +2,6 @@
 
 import SkillCard from "./SkillCard";
 import { skills } from "@/data/skills";
-import { Button } from "@/components/ui/button";
 import { FaChevronDown } from "react-icons/fa6";
 import Link from "next/link";
 

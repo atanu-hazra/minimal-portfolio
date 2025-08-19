@@ -1,30 +1,12 @@
 import "./globals.css";
 import Header from "@/components/Sections/Header";
 import Footer from "@/components/Sections/Footer";
-import { JetBrains_Mono, Inter, Cookie } from "next/font/google";
-
-export const inter = Inter({
-  subsets: ["latin"],
-  weight: ["400", "600"],
-  variable: "--font-inter",
-});
-
-export const jetbrains = JetBrains_Mono({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  variable: "--font-jetbrains",
-});
-
-export const cookie = Cookie({
-  subsets: ["latin"],
-  weight: ["400"],
-  variable: "--font-cookie",
-});
+import { inter } from "@/lib/fonts";
 
 
-const metadata = {
-  title: "Atanu Hazra",
-  description: "A passionate full-satck developer",
+export const metadata = {
+  title: "Atanu Hazra | Full-Stack Developer",
+  description: "Portfolio of Atanu Hazra, a full-stack developer passionate about creating scalable, user-friendly web applications using Next.js, React, Node.js, Express, and Django.",
 };
 
 

@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { Button } from "@/components/ui/button";
 import { Spotlight } from "@/components/ui/spotlight";
-import { jetbrains } from "@/app/layout";
+import { jetbrains } from "@/lib/fonts";
 import { FaChevronDown } from "react-icons/fa6";
 
 
