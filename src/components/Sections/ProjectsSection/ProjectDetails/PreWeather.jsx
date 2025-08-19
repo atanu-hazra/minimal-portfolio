@@ -32,23 +32,29 @@ export default function PreWeather() {
                     <h1 className="text-3xl sm:text-4xl font-bold text-left">{projectName}</h1>
 
                     <div className="flex gap-1 sm:gap-4">
-                        <button
-                            size="icon"
-                            className="hover:bg-gray-800/70 p-2 rounded-full"
-                        >
-                            <a href={githubRepo} target="_blank" rel="noopener noreferrer">
-                                <FaGithub className="text-gray-300 h-6 w-6" />
-                            </a>
-                        </button>
+                        {(githubRepo.trim().length > 0)
+                            ? <button
+                                size="icon"
+                                className="hover:bg-gray-800/70 p-2 rounded-full"
+                            >
+                                <a href={githubRepo} target="_blank" rel="noopener noreferrer">
+                                    <FaGithub className="text-gray-300 h-6 w-6" />
+                                </a>
+                            </button>
+                            : <></>
+                        }
 
-                        <button
-                            size="icon"
-                            className="hover:bg-gray-800/70 p-2 rounded-full"
-                        >
-                            <a href={liveDemo} target="_blank" rel="noopener noreferrer">
-                                <FiExternalLink className="text-gray-300 h-6 w-6" />
-                            </a>
-                        </button>
+                        {(liveDemo.trim().length > 0)
+                            ? <button
+                                size="icon"
+                                className="hover:bg-gray-800/70 p-2 rounded-full"
+                            >
+                                <a href={liveDemo} target="_blank" rel="noopener noreferrer">
+                                    <FiExternalLink className="text-gray-300 h-6 w-6" />
+                                </a>
+                            </button>
+                            : <></>
+                        }
                     </div>
                 </div>
 

@@ -51,28 +51,33 @@ export default function ProjectCard({ project }) {
                     </Link>
 
                     <div className="flex gap-2">
+                        {(githubRepo.trim().length > 0)
+                            ? (<Button
+                                size="icon"
+                                variant="ghost"
+                                className="bg-gray-800 hover:bg-gray-700 rounded-full"
+                                asChild
+                            >
+                                <a href={githubRepo} target="_blank" rel="noopener noreferrer">
+                                    <FaGithub size={18} className="text-gray-300" />
+                                </a>
+                            </Button>)
+                            : <></>
+                        }
 
-                        <Button
-                            size="icon"
-                            variant="ghost"
-                            className="bg-gray-800 hover:bg-gray-700 rounded-full"
-                            asChild
-                        >
-                            <a href={githubRepo} target="_blank" rel="noopener noreferrer">
-                                <FaGithub size={18} className="text-gray-300" />
-                            </a>
-                        </Button>
-
-                        <Button
-                            size="icon"
-                            variant="ghost"
-                            className="bg-gray-800 hover:bg-gray-700 rounded-full"
-                            asChild
-                        >
-                            <a href={liveDemo} target="_blank" rel="noopener noreferrer">
-                                <FiGlobe size={18} className="text-gray-300" />
-                            </a>
-                        </Button>
+                        {(liveDemo.trim().length > 0)
+                            ? (<Button
+                                size="icon"
+                                variant="ghost"
+                                className="bg-gray-800 hover:bg-gray-700 rounded-full"
+                                asChild
+                            >
+                                <a href={liveDemo} target="_blank" rel="noopener noreferrer">
+                                    <FiGlobe size={18} className="text-gray-300" />
+                                </a>
+                            </Button>)
+                            : <></>
+                        }
 
 
                     </div>

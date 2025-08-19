@@ -3,7 +3,7 @@ import Link from "next/link"
 import { FaChevronLeft, FaGithub } from "react-icons/fa6";
 import { FiExternalLink } from "react-icons/fi";
 
-export default function Fuzion() {
+export default function EaseCare() {
     const {
         projectName,
         fullDescription,
@@ -11,7 +11,7 @@ export default function Fuzion() {
         githubRepo,
         liveDemo,
         thumbnail
-    } = projects[0]
+    } = projects[2]
 
     return (
         <>
@@ -67,7 +67,7 @@ export default function Fuzion() {
                 </div>
 
                 <div>
-                    <h3 className="text-2xl sm:text-3xl font-bold text-left mt-8">Tech Stack</h3>
+                    <h3 className="text-2xl sm:text-3xl  font-bold text-left mt-8">Tech Stack</h3>
 
                     <div className="flex flex-wrap gap-2 my-5">
                         {techStacks.map((tech, index) => (
@@ -87,36 +87,6 @@ export default function Fuzion() {
                     <p className="whitespace-pre-line leading-relaxed text-left text-slate-300">{fullDescription}</p>
                 </div>
 
-                <div>
-                    <h3 className="text-2xl sm:text-3xl font-bold text-left mt-8 mb-4">Pages Info</h3>
-                    <img
-                        src="https://res.cloudinary.com/dmfvcclh3/image/upload/v1755527329/Screenshot_2025-08-18_192339_f6yter.png"
-                        alt="fuzion-app"
-                        className="w-full h-auto object-cover my-6 rounded-md border-2 border-slate-500"
-                    />
-
-                    <img
-                        src="https://res.cloudinary.com/dmfvcclh3/image/upload/v1755527327/Screenshot_2025-08-18_191933_gubv2b.png"
-                        alt="fuzion-app"
-                        className="w-full h-auto object-cover my-6 rounded-md"
-                    />
-
-                    <img
-                        src="https://res.cloudinary.com/dmfvcclh3/image/upload/v1755527324/Screenshot_2025-08-18_192506_gbbdm7.png"
-                        alt="fuzion-app"
-                        className="w-full h-auto object-cover my-6 border-2 border-slate-500 rounded-md"
-                    />
-                    <img
-                        src="https://res.cloudinary.com/dmfvcclh3/image/upload/v1755527324/Screenshot_2025-08-18_192151_scfd1w.png"
-                        alt="fuzion-app"
-                        className="w-full h-auto object-cover my-6 rounded-md"
-                    />
-                    <img
-                        src="https://res.cloudinary.com/dmfvcclh3/image/upload/v1755527324/Screenshot_2025-08-18_192852_e4sxsi.png"
-                        alt="fuzion-app"
-                        className="w-full h-auto object-cover my-6 border-2 border-slate-500 rounded-md"
-                    />
-                </div>
 
                 <Link href="/projects" className="flex justify-center">
                     <button

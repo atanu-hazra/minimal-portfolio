@@ -56,5 +56,28 @@ export const projects = [
         githubRepo: "https://github.com/imatanu108/weather-app",
         routeName: "pre-weather"
     },
+    {
+        projectName: "EaseCare",
+        shortDescription: "A robust backend system for healthcare applications, providing secure patient and doctor management with JWT-based authentication.",
+        fullDescription: `During the development of EaseCare Backend API, I built a scalable backend system designed for healthcare applications. The system includes patient and doctor management, authentication, and relationship mapping between patients and doctors. 
+
+        The backend was implemented using Django, Django REST Framework (DRF), and PostgreSQL for secure data storage. Authentication and authorization were handled using JWT (djangorestframework-simplejwt), ensuring data security and controlled access. 
+
+        • Designed and implemented RESTful APIs for patient and doctor management.
+        • Built JWT-based authentication for secure access control.
+        • Developed patient-doctor relationship mapping for effective record management.
+        • Ensured reliable data storage with PostgreSQL.
+        • Followed best practices for API development, modular design, and scalability.`,
+        thumbnail: "https://res.cloudinary.com/dmfvcclh3/image/upload/v1755611650/20250819_191755_p47axs.jpg",
+        techStacks: [
+            "Django",
+            "REST Framework",
+            "PostgreSQL",
+            "JWT Authentication",
+        ],
+        liveDemo: "",
+        githubRepo: "https://github.com/imatanu108/django-healthcare",
+        routeName: "easecare"
+    }
 
 ];
