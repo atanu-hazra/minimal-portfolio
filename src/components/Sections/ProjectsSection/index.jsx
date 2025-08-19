@@ -5,8 +5,7 @@ import { projects } from "@/data/projects"; // Adjust path
 
 const ProjectsSection = () => {
     return (
-        <section className="py-12 px-2">
-            <div className="container mx-auto px-4">
+        <section className="py-12 px-1 md:px-2">
                 <h2 className="text-4xl sm:text-5xl font-bold text-center mb-6">Projects</h2>
                 <p className="text-lg text-center text-gray-400 mb-8">Showcasing impactful projects and technical achievements.</p>
 
@@ -18,7 +17,6 @@ const ProjectsSection = () => {
                         <ProjectCard key={index} project={project} />
                     ))}
                 </div>
-            </div>
         </section>
     );
 };

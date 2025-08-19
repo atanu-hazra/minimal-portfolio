@@ -18,7 +18,7 @@ export default function HeroSection() {
             <Spotlight className="-top-10 left-20 sm:-top-30 sm:left-30 md:-top-40 md:left-60" fill="white" />
 
             <div className="relative flex flex-col items-center text-center z-10 mt-12">
-                <div className="w-60 h-60 md:w-68 md:h-68 rounded-full overflow-hidden border-8 border-white shadow-lg mb-6">
+                <div className="w-50 h-50 sm:w-58 sm:h-58 md:w-68 md:h-68 rounded-full overflow-hidden border-8 border-slate-50 shadow-lg mb-6">
                     <Image src={AVATAR_URL} alt="Profile" width={270} height={270} className="object-cover" />
                 </div>
 

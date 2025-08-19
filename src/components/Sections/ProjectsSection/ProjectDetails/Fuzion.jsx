@@ -16,22 +16,22 @@ export default function Fuzion() {
     return (
         <>
 
-            <div className="py-2 mx-2 sm:mx-8 md:mx-52">
+            <div className="py-2 mx-5 sm:mx-12 md:mx-52">
 
                 <Link href="/projects">
                     <button
                         variant="ghost"
-                        className="mt-10 gap-2 w-32 h-10 border-2 text-sm border-slate-800  hover:bg-slate-800 text-slate-300 hover:text-slate-50 flex justify-center items-center rounded-lg"
+                        className="mt-6 sm:mt-8 md:mt-10 gap-2 w-32 h-10 border-2 text-sm border-slate-800  hover:bg-slate-800 text-slate-300 hover:text-slate-50 flex justify-center items-center rounded-lg"
                     >
                         <FaChevronLeft className="w-3 h-3" />
                         <span>All Projects</span>
                     </button>
                 </Link>
 
-                <div className="mt-6 mb-6 flex justify-between items-center">
-                    <h1 className="text-5xl font-bold text-left">{projectName}</h1>
+                <div className="my-4 flex justify-between items-center">
+                    <h1 className="text-3xl sm:text-4xl font-bold text-left">{projectName}</h1>
 
-                    <div className="flex gap-2 sm:gap-4">
+                    <div className="flex gap-1 sm:gap-4">
                         <button
                             size="icon"
                             className="hover:bg-gray-800/70 p-2 rounded-full"
@@ -61,7 +61,7 @@ export default function Fuzion() {
                 </div>
 
                 <div>
-                    <h3 className="text-3xl font-bold text-left mt-8">Tech Stack</h3>
+                    <h3 className="text-2xl sm:text-3xl font-bold text-left mt-8">Tech Stack</h3>
 
                     <div className="flex flex-wrap gap-2 my-5">
                         {techStacks.map((tech, index) => (
@@ -76,13 +76,13 @@ export default function Fuzion() {
                 </div>
 
                 <div>
-                    <h3 className="text-3xl font-bold text-left mt-8">Description</h3>
+                    <h3 className="text-2xl sm:text-3xl font-bold text-left mt-8 mb-2">Description</h3>
 
                     <p className="whitespace-pre-line leading-relaxed text-left text-slate-300">{fullDescription}</p>
                 </div>
 
                 <div>
-                    <h3 className="text-3xl font-bold text-left mt-8 mb-4">Page Info</h3>
+                    <h3 className="text-2xl sm:text-3xl font-bold text-left mt-8 mb-4">Pages Info</h3>
                     <img
                         src="https://res.cloudinary.com/dmfvcclh3/image/upload/v1755527329/Screenshot_2025-08-18_192339_f6yter.png"
                         alt="fuzion-app"

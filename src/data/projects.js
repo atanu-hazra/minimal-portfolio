@@ -37,8 +37,7 @@ export const projects = [
     {
         projectName: "PreWeather",
         shortDescription: "A sophisticated weather application delivering real-time and forecast data with multi-location support and dynamic UI.",
-        fullDescription: `
-        During the development of PreWeather, I created a responsive weather application that provides real-time updates and 10-day forecasts. Users can search any location, track multiple cities, and view details such as temperature, wind speed, humidity, UV levels, and rain probability.
+        fullDescription: `During the development of PreWeather, I created a responsive weather application that provides real-time updates and 10-day forecasts. Users can search any location, track multiple cities, and view details such as temperature, wind speed, humidity, UV levels, and rain probability.
 
         I implemented multi-location mode, auto-complete suggestions, dynamic backgrounds that adjust with time of day, and persistent local storage to retain user settings across sessions. The app was built with React, Redux Toolkit, and Tailwind CSS, and deployed on Vercel for seamless access.
 
@@ -46,9 +45,7 @@ export const projects = [
         • Added multi-location support with independent data handling.D
         • Implemented auto-complete search and dynamic backgrounds.D
         • Integrated local storage for persistent user data.D
-        • Delivered a responsive UI with React, Redux Toolkit, and Tailwind CSS.
-        
-        `,
+        • Delivered a responsive UI with React, Redux Toolkit, and Tailwind CSS.`,
         thumbnail: "https://res.cloudinary.com/dmfvcclh3/image/upload/v1755270517/thumb-3_dlleqj.jpg",
         techStacks: [
             "React",

@@ -106,7 +106,7 @@ const Header = () => {
                         animate={{ height: "auto", opacity: 1 }}
                         exit={{ height: 0, opacity: 0 }}
                         transition={{ duration: 0.2, ease: "easeInOut" }}
-                        className="md:hidden flex flex-col gap-3 border-b-2 border-gray-800 bg-[#0f1419]/90 backdrop-blur-lg py-3 overflow-hidden"
+                        className="md:hidden flex flex-col justify-center items-center gap-3 border-b-2 border-gray-800 bg-[#0f1419]/90 backdrop-blur-lg py-3 overflow-hidden"
                     >
                         <Link href="/skills" onClick={() => setShowDropdownMenu(false)}>
                             <Button
