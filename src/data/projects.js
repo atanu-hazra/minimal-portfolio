@@ -31,7 +31,7 @@ export const projects = [
             "JWT",
         ],
         liveDemo: "https://fuzion-media.vercel.app/",
-        githubRepo: "https://github.com/imatanu108/fuzion",
+        githubRepo: "https://github.com/atanu-hazra/fuzion",
         routeName: "fuzion"
     },
     {
@@ -53,7 +53,7 @@ export const projects = [
             "Tailwind CSS",
         ],
         liveDemo: "https://preweather.vercel.app/",
-        githubRepo: "https://github.com/imatanu108/weather-app",
+        githubRepo: "https://github.com/atanu-hazra/weather-app",
         routeName: "pre-weather"
     },
     {
@@ -76,7 +76,7 @@ export const projects = [
             "JWT Authentication",
         ],
         liveDemo: "",
-        githubRepo: "https://github.com/imatanu108/django-healthcare",
+        githubRepo: "https://github.com/atanu-hazra/django-healthcare",
         routeName: "easecare"
     }
 
