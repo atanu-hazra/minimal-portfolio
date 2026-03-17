@@ -6,7 +6,7 @@ import { SiGmail } from "react-icons/si";
 
 const Footer = () => {
     return (
-        <div className="flex justify-center items-center gap-10 mb-8">
+        <div className="flex justify-center items-center gap-10 my-8">
             <a
                 href={GITHUB_URL}
                 target="_blank"
