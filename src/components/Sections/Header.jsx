@@ -126,6 +126,15 @@ const Header = () => {
                             </Button>
                         </Link>
 
+                        <Link href="/experience" onClick={() => setShowDropdownMenu(false)}>
+                            <Button
+                                variant="ghost"
+                                className="justify-center items-center text-base font-normal hover:text-white hover:bg-gray-600/25 rounded-none"
+                            >
+                                Experience
+                            </Button>
+                        </Link>
+
                         <Link href="/projects" onClick={() => setShowDropdownMenu(false)}>
                             <Button
                                 variant="ghost"

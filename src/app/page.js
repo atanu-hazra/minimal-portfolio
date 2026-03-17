@@ -10,7 +10,7 @@ export default function Home() {
       <SkillsPreview/>
 
         <ExperienceSection/>
-      <div className="bg-[#121f2b]">
+      <div className="bg-[#121f2b] mt-6">
         <ProjectsSection/>
       </div>
     </div>
